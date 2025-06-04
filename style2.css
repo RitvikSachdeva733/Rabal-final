@@ -12,6 +12,13 @@
     box-sizing: border-box;
 }
 
+
+::selection {
+    background-color: var(--primary-color); /* or any color you like */
+    color: white; /* color of the selected text */
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
