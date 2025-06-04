@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav>
-            <div class="logo">RABAL<p>by- kashmirwalle</p></div>
+            <div class="logo"><a href="index.html">RABAL<p>by- kashmirwalle</p></a></div>
             <div class="nav-links">
                 <a href="home.html">Home</a>
                 <a href="index.html#story">Our Story</a>
@@ -124,6 +124,20 @@
                 <div class="calendar-cell">Harvest Months</div>
                 <div class="calendar-cell">Harvest Season</div>
             </div>
+            
+            <div class="calendar-row" data-season="5-6">
+                <div class="calendar-cell">Cherry</div>
+                <div class="calendar-cell" data-label="Type">Stone Fruit</div>
+                <div class="calendar-cell" data-label="Harvest Months">May to June</div>
+                <div class="calendar-cell" data-label="Harvest Season">Late Spring</div>
+            </div>
+
+            <div class="calendar-row" data-season="7-8">
+                <div class="calendar-cell">Plum</div>
+                <div class="calendar-cell" data-label="Type">Stone Fruit</div>
+                <div class="calendar-cell" data-label="Harvest Months">July to August</div>
+                <div class="calendar-cell" data-label="Harvest Season">Summer</div>
+            </div>
 
             <div class="calendar-row" data-season="8-9">
                 <div class="calendar-cell">Gala Apple</div>
@@ -160,19 +174,6 @@
                 <div class="calendar-cell" data-label="Harvest Season">Early Autumn</div>
             </div>
 
-            <div class="calendar-row" data-season="5-6">
-                <div class="calendar-cell">Cherry</div>
-                <div class="calendar-cell" data-label="Type">Stone Fruit</div>
-                <div class="calendar-cell" data-label="Harvest Months">May to June</div>
-                <div class="calendar-cell" data-label="Harvest Season">Late Spring</div>
-            </div>
-
-            <div class="calendar-row" data-season="7-8">
-                <div class="calendar-cell">Plum</div>
-                <div class="calendar-cell" data-label="Type">Stone Fruit</div>
-                <div class="calendar-cell" data-label="Harvest Months">July to August</div>
-                <div class="calendar-cell" data-label="Harvest Season">Summer</div>
-            </div>
         </div>
 
         <p class="calendar-outro">
@@ -187,6 +188,40 @@
 <section id="products" class="products section">
     <h2 class="section-title">Product Descriptions</h2>
     <div class="products-grid">
+        <!-- Cherry -->
+        <div class="product-card">
+            <div class="product-image"><img src="Cherry.png" alt="Cherries"></div>
+            <div class="product-info" id="cherry">
+                <h3>Cherry</h3>
+                <div class="product-description">
+                    <p><strong>Description:</strong> Enjoy the sweet and plump goodness of our Cherries! With their vibrant red skin and juicy flesh, these fruits are perfect for snacking, baking, and making delicious desserts.</p>
+                    <ul>
+                        <li>Rich in antioxidants, vitamins A and C, and potassium</li>
+                        <li>May help reduce inflammation and improve heart health</li>
+                        <li>Supports healthy sleep patterns and cognitive function</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="Plums.png" alt="Plums">
+            </div>
+            <div class="product-info" id="plums">
+                <h3>Plums</h3>
+                <div class="product-description">
+                    <p><strong>Description:</strong> Plums are sweet, juicy stone fruits with smooth skin, available in various colors and sizes. They offer a delightful balance of sweetness and tartness.</p>
+                    <ul>
+                    <li>High in antioxidants, helping to prevent and manage osteoporosis, macular degeneration, diabetes, and obesity.</li>
+                    <li>May improve cognition, boost immunity, and support nervous system health.</li>
+                    <li>Aids in skin care and may help relieve indigestion and anxiety-related problems.</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
         <!-- Apple Gala -->
         <div class="product-card">
             <div class="product-image"><img src="Gala.png" alt="Gala Apple"></div>
@@ -274,40 +309,7 @@
             </div>
         </div>
 
-        <!-- Cherry -->
-        <div class="product-card">
-            <div class="product-image"><img src="Cherry.png" alt="Cherries"></div>
-            <div class="product-info" id="cherry">
-                <h3>Cherry</h3>
-                <div class="product-description">
-                    <p><strong>Description:</strong> Enjoy the sweet and plump goodness of our Cherries! With their vibrant red skin and juicy flesh, these fruits are perfect for snacking, baking, and making delicious desserts.</p>
-                    <ul>
-                        <li>Rich in antioxidants, vitamins A and C, and potassium</li>
-                        <li>May help reduce inflammation and improve heart health</li>
-                        <li>Supports healthy sleep patterns and cognitive function</li>
-                    </ul>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <div class="product-image">
-                <img src="Plums.png" alt="Plums">
-            </div>
-            <div class="product-info" id="plums">
-                <h3>Plums</h3>
-                <div class="product-description">
-                    <p><strong>Description:</strong> Plums are sweet, juicy stone fruits with smooth skin, available in various colors and sizes. They offer a delightful balance of sweetness and tartness.</p>
-                    <ul>
-                    <li>High in antioxidants, helping to prevent and manage osteoporosis, macular degeneration, diabetes, and obesity.</li>
-                    <li>May improve cognition, boost immunity, and support nervous system health.</li>
-                    <li>Aids in skin care and may help relieve indigestion and anxiety-related problems.</li>
-                    </ul>
-                    
-                </div>
-            </div>
-        </div>
+        
     </div>
 
     <!-- Overlay element -->
